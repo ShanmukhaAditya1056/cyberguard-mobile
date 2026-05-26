@@ -1,0 +1,57 @@
+class IndianThreats {
+  static const List<String> suspiciousKeywords = [
+    'verify-now',
+    'login-update',
+    'otp-confirm',
+    'kyc-update',
+    'aadhaar-verify',
+    'upi-reward',
+    'claim-prize',
+    'secure-hdfc',
+    'sbi-alert',
+    'paytm-verify',
+    'free-jio',
+    'win-prize',
+    'trai-notice',
+    'account-suspended',
+    'urgent-action',
+    'click-now',
+    'lucky-winner',
+    'reward-claim',
+    'expire-today',
+    'update-kyc',
+  ];
+
+  static const List<String> suspiciousTlds = [
+    '.xyz',
+    '.tk',
+    '.ml',
+    '.ga',
+    '.cf',
+    '.click',
+    '.top',
+    '.work',
+    '.loan',
+    '.gq',
+    '.pw',
+  ];
+
+  static const List<String> safeDomains = [
+    'google.com',
+    'paytm.com',
+    'phonepe.com',
+    'gpay.com',
+    'npci.org.in',
+    'sbi.co.in',
+    'hdfcbank.com',
+    'icicibank.com',
+    'axisbank.com',
+    'amazon.in',
+    'flipkart.com',
+    'jio.com',
+    'airtel.in',
+    'bsnl.co.in',
+    'incometax.gov.in',
+    'uidai.gov.in',
+  ];
+}
