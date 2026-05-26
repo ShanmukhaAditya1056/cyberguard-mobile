@@ -1,0 +1,7 @@
+{
+  "Suspicious domain": "Domain resembles known phishing infrastructure used in fraud campaigns.",
+  "Bank keyword detected": "Bank or payment keywords were detected in the input.",
+  "Urgency pattern found": "Urgent language is commonly used to pressure victims.",
+  "IP address in URL": "Using an IP address instead of a domain is a strong phishing signal.",
+  "Multiple hyphens": "Excessive hyphens often indicate spoofed domains."
+}

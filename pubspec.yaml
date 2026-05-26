@@ -1,0 +1,55 @@
+name: cyberguard_ai
+description: CyberGuard AI mobile security application
+publish_to: 'none'
+version: 2.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  go_router: ^13.0.0
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.0.10
+  lottie: ^3.1.2
+  percent_indicator: ^4.2.3
+  fl_chart: ^0.68.0
+  tflite_flutter: ^0.12.1
+  hive_flutter: ^1.1.0
+  flutter_secure_storage: ^9.0.0
+  crypto: ^3.0.3
+  dio: ^5.4.3
+  permission_handler: ^11.3.1
+  installed_apps: ^1.4.0
+  connectivity_plus: ^6.0.3
+  network_info_plus: ^6.0.1
+  flutter_local_notifications: ^17.1.2
+  url_launcher: ^6.2.6
+  share_plus: ^12.0.2
+  path_provider: ^2.1.3
+  intl: ^0.19.0
+  animations: ^2.0.11
+  shimmer: ^3.0.0
+  fluttertoast: ^9.1.0
+  clipboard: ^0.1.3
+  shared_preferences: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.11
+  hive_generator: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/models/phishing_model.tflite
+    - assets/models/malware_model.tflite
+    - assets/models/wifi_model.tflite
+    - assets/models/shap_lookup.json
+    - assets/images/logo.png
+    - assets/animations/scanning.json
+    - assets/animations/safe.json
+    - assets/animations/danger.json
